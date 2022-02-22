@@ -1,0 +1,14 @@
+h1{text-transform: uppercase;color: rgb(55, 43, 226);text-decoration:underline;}
+
+#us{text-transform:uppercase;
+
+    text-shadow: 2px 2px 1px red ; }
+   
+    a{text-decoration: none;
+       color: rgb(255, 0, 0);
+       text-shadow: 2px 2px 4px blue;   }
+      
+       #hdig{color:red;
+             
+            font-style:italic;
+        text-transform: uppercase; }
