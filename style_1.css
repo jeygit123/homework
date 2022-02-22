@@ -6,6 +6,13 @@ a{text-decoration: none;
 color: green;}
 p{}
 p:nth-child(even) {  
-    background: blue;  
+    background:wheat;font:7vw small-caps bold arial,sans-serif ; color:rgb(226, 162, 43)
   }  
+  p:nth-last-child(odd){font-size:x-large;font-style: italic;color:blue;font-family: Georgia, 'Times New Roman', Times, serif, ;}
   #shadow{text-shadow: 2px 2px 2px red;}
+ 
+  #us:hover{background-color: rgb(168, 168, 187);}
+  #add:hover{background-color: rgb(168, 168, 187);}
+#us:focus{box-shadow: 0 0 4px rgb(75, 42, 165);}
+#add:focus{box-shadow: 0 0 4px rgb(0, 143, 43);}
+#emo{text-transform: capitalize;text-align:left;text-decoration: solid;}
