@@ -1,0 +1,100 @@
+*{box-sizing:border-box;}
+    
+  body{ margin: 0;
+    padding: 0;
+    font-famly: arial;
+    font-size:16px;
+    line: height 1.6}
+
+   
+ .container{
+        max-width: 500px;
+        margin: 30px auto;
+        }
+    
+ .tab_triger{}
+    
+.tab_triger ul{
+        margin: 0;
+       padding: 0;
+       list-style: none;
+      display: flex;
+    }
+    
+ .tab_triger ul li{}
+    
+.tab_triger ul li label{ position: relative;
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+    min-width: 100px;
+    background: #e06666;
+    text-align:center;
+    font-weight: 700px;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;}
+    
+ .tab_triger ul li:nth-child(1) label{background: #8b78ce;
+ }
+    
+    
+ .tab_triger ul li:nth-child(2) label{
+    
+        background: #29c924;
+        }
+        
+        
+.tab_triger ul li:nth-child(3) label{
+    
+            background: #656b09;
+            }
+    
+
+.tab_container_wrap{}
+    
+               
+ .tab_container_wrap input{ 
+                   position: absolute;
+                   width: 0;
+                   height 0;
+                   margin: 0;
+                   z-index: -100;
+                   top: -10000px;}
+    
+ .tab_container_wrap input:checked + .tab_content_box{
+    display:block;}
+    
+    
+          
+.tab_content_box{
+                background-color: #dbacd3;
+                padding: 20px;
+    
+                display: none;
+            }
+            
+.tab_content_box h2{
+    
+                margin: 0 0 20px;
+    
+            }
+                
+ .tab_content_box:nth-of-type(1){
+                background-color: #8b78ce;
+       
+                
+            }
+ .tab_content_box:nth-of-type(2){
+                background-color: #29c924;
+                
+                
+            }
+ .tab_content_box:nth-of-type(3){
+                background-color: #656b09;
+              
+                
+            }
+ 
+ .tab_triger ul li label:hover{    
+                color: rgb(199, 23, 23);
+                }
