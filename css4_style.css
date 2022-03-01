@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 body{margin: 50px;}
 .container {
@@ -7,7 +7,7 @@ body{margin: 50px;}
     display:grid;
     table-layout: auto;
     width: 100%;
-    grid-template-rows: repeat(3fr,100%);
+    grid-template-rows: 3fr,3fr;
     grid-template-columns: auto minmax(3fr,100%);
     background-color: rgb(235, 205, 231);
     grid-gap: 10px;
@@ -15,7 +15,7 @@ body{margin: 50px;}
     grid-template-areas:'header header header'
                          'content section aside' 
                          'footer footer aside' ;
-                         white-space: nowrap;
+                        
 }
 
 

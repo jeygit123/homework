@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        *{text-align: center;
+            text-transform: uppercase;
+        background-color: rgb(195, 157, 231);}
+    input:hover{background-color: rgb(187, 104, 104);}
+    </style>
+    <script type="text/javascript">
+        function add()
+        {
+            var a=document.getElementById('txt1').value;
+            var b=document.getElementById('txt2').value;
+            var c=+a + +b;
+            document.getElementById("txt3").value=c;
+        }
+        function sub()
+        {
+            var a=document.getElementById('txt1').value;
+            var b=document.getElementById('txt2').value;
+            var c=+a - +b;
+            document.getElementById("txt3").value=c;
+        }
+        function mul()
+        {
+            var a=document.getElementById('txt1').value;
+            var b=document.getElementById('txt2').value;
+            var c=+a * +b;
+            document.getElementById("txt3").value=c;
+        }
+        function div()
+        {
+            var a=document.getElementById('txt1').value;
+            var b=document.getElementById('txt2').value;
+            var c=+a / +b;
+            document.getElementById("txt3").value=c;
+        }
+
+        // if(number=='' || number=='');
+        // {
+        //     alert('Please enter a value')
+        // }
+        
+            </script>
+</head>
+<body>
+ <caption>Calculation</caption><br><br>
+<label for="txt1">Value1:</label> 
+<input type="number"placeholder="Enter number" id="txt1" name="">
+<br><br>
+<label for="txt2">Value2:</label>
+<input type="number"placeholder="Enter number" id="txt2" name="">
+<br><br>
+<label for="txt3">Result:</label>
+<input type="number" placeholder="Total Value" id="txt3" name=""><br><br>
+<input type="button" value="ADD" onclick="add()" name="" >
+<input type="button" value="SUB" onclick="sub()" name="">
+<input type="button" value="MUL" onclick="mul()" name="">
+<input type="button" value="DIV" onclick="div()" name="">
+
+
+
+</body>
+</html>
+
