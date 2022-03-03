@@ -1,0 +1,67 @@
+*{  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+  }  
+  body{  
+    height: 100vh;  
+    background:rgb(199, 149, 56);  
+  }  
+  .container{  
+  position: absolute;  
+  width: 50%;  
+  min-width: 580px;  
+  transform: translate(-50%,-50%);  
+  top: 50%;  
+  left: 50%;  
+  background: rgb(204, 108, 108);  
+  padding: 50px 10px;  
+  border-radius: 5px;  
+  display: grid;  
+  justify-items: center;  
+  font-family: 'poppins', sans-serif;  
+  }  
+ Next, we are styling the element inside the container, to make the user interface more engaging.
+ 
+  h3{  
+    font-size: 30px;  
+    font-weight: 600;  
+  }  
+  input[type="text"]{  
+    width: 90px;  
+    font-weight: 400;  
+    padding: 20px 0;  
+    font-size: 15px;  
+    text-align: center;  
+    margin-top: 30px;  
+    border-radius: 5px;  
+    border: 2px solid #202020;  
+    color: #839933;  
+  }  
+  button{  
+    width: 100px;  
+    padding: 10px 0;  
+    border-radius: 5px;  
+    background-color: #c53131;  
+    color: #fff;  
+    border: none;  
+    font-size: 18px;  
+    font-weight: 200;  
+    margin-bottom: 30px;  
+  }  
+  p{  
+    font-weight: 400;  
+  } 
+   #my_res{width: 100px;  
+    padding: 10px 0;  
+    border-radius: 5px;  
+    background-color: #c53131;  
+    color: #fff;  
+    border: none;  
+    font-size: 18px;  
+    font-weight: 200;  
+    margin-bottom: 30px; 
+
+  } 
+  
+ 
