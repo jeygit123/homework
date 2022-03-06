@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <form action="print.html" method="GET">
+        <div class="header">
+            <h3>Employee Details</h3>
+        </div>
+        
+            <div class="form-control">
+                <label for="name" name="userName">EmployeeName:</label>
+                <input type="text" id="name" name="userName" required>
+                
+            </div>
+            <div class="form-control">
+                <label for="employeeid" name="empdet">Employee ID:</label>
+                <input type="text" id="employeeid" name="empdet"required>
+                
+            </div>
+            <div class="form-control">
+                <label for="designation" name="emp_des">Employee Designation:</label>
+                <select id="designation">
+                    <option>Manager</option>
+                    <option>Team Lead</option>
+                    <option>Developer</option>
+                    <option>QA Tester</option>
+                </select> 
+                
+            </div>
+            <div class="form-control">
+                <label for="date" name="joi_dt">Joining Date</label>
+                <input type="date" id="date" name="joi_dt" required>
+               
+            </div>
+            
+            </div>
+            <div class="form-control">
+                <label for="hours" name="hr">Hours Worked</label>
+                <input type="number" id="hours" name="hr"required>
+                
+            </div>
+            
+        <button type="submit" onclick="saveFile();">SUBMIT</button>
+    </div>
+    <script src="final.js"></script>
+</form> 
+</body>
+</html>
